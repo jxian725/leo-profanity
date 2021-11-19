@@ -15,9 +15,12 @@ Profanity filter, based on "Shutterstock" dictionary
 ## Installation
 
 ```
-// npm
+// npm 
 npm install leo-profanity
 npm install leo-profanity --no-optional # install only English bad word dictionary
+// npm forked
+npm uninstall leo-profanity
+npm install --save git+https://github.com/jxian725/leo-profanity.git
 
 // yarn
 yarn add leo-profanity
@@ -236,28 +239,4 @@ $ semantic-release-cli setup
 Using above command to setup "semantic-release"
 ```
 
-## Stats
-[![NPM](https://nodei.co/npm/leo-profanity.png?downloads=true&stars=true)](https://nodei.co/npm/leo-profanity/) [![Greenkeeper badge](https://badges.greenkeeper.io/jojoee/leo-profanity.svg)](https://greenkeeper.io/)
-
-## Reference
-- Inspired by [jwils0n/profanity-filter](https://github.com/jwils0n/profanity-filter)
-- Algorithm / Discussion
-  - ["similar-like" symbol to alphabet](http://stackoverflow.com/questions/24515/bad-words-filter#answer-24615)
-  - [Replace Bad words using Regex](http://stackoverflow.com/questions/3342011/replace-bad-words-using-regex)
-  - [Clbuttic](http://www.computerhope.com/jargon/c/clbuttic.htm)
-  - [The Clbuttic Mistake](http://thedailywtf.com/articles/The-Clbuttic-Mistake-)
-  - [The Clbuttic Mistake: When obscenity filters go wrong](http://www.telegraph.co.uk/news/newstopics/howaboutthat/2667634/The-Clbuttic-Mistake-When-obscenity-filters-go-wrong.html)
-  - [Obscenity Filters: Bad Idea, or Incredibly Intercoursing Bad Idea?](https://blog.codinghorror.com/obscenity-filters-bad-idea-or-incredibly-intercoursing-bad-idea/)
-  - [How do you implement a good profanity filter?](http://stackoverflow.com/questions/273516/how-do-you-implement-a-good-profanity-filter)
-  - [The Untold History of Toontown’s SpeedChat (or BlockChattm from Disney finally arrives)](http://habitatchronicles.com/2007/03/the-untold-history-of-toontowns-speedchat-or-blockchattm-from-disney-finally-arrives/)
-  - [Profanity Filter Performance in Java](http://softwareengineering.stackexchange.com/questions/91177/profanity-filter-performance-in-java)
-- Resource bad-word list
-  - [Bad words list (458 words) by Alejandro U. Alvarez](https://urbanoalvarez.es/blog/2008/04/04/bad-words-list/)
-  - DansGuardian - [dansguardian.org](http://dansguardian.org/), [DansGuardian Phraselists](http://contentfilter.futuragts.com/phraselists/)
-  - [Seven dirty words](https://en.wikipedia.org/wiki/Seven_dirty_words)
-  - [Shutterstock](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)
-  - [MauriceButler/badwords](https://github.com/MauriceButler/badwords)
-  - http://www.cs.cmu.edu/~biglou/resources/bad-words.txt
-- Tool
-  - [RegExr](http://regexr.com/)
 
